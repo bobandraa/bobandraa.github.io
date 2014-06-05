@@ -1,8 +1,13 @@
 body {
 	background-color: #EABAAD;
-	
+
 }
 
 .center {
 	text-align: center;
+}
+
+#closing_section {
+	text-align: center;
+	font-family: cursive;
 }
