@@ -79,10 +79,20 @@ img:hover {
 	margin-right: 15px;
 	margin-bottom: 20px;
 }
+#caption{
+	top: -200px;
+	left: 10px;
+	position: relative;
+	font-weight: bold;
+
+}
+.color_caption{
+	color: white
+}
 
 #footer {
    position:fixed;
-   left:400px;
+   left:625px;
    bottom:0px;
    height:40px;
    width:100%;
@@ -90,3 +100,6 @@ img:hover {
 	
 }
 
+ol > li:first-child, ol> li:last-child { 
+	font-weight: bold;
+}
