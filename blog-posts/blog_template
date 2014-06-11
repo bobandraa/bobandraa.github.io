@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
 		<title>Bobandraa</title>
-		<link rel="stylesheet" type="text/css" href="blog-posts/stylesheets/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="../blog-posts/stylesheets/stylesheet.css">
 	    <link href="middleman/source/fonts/Proxima Nova Light.otf" >
 	</head>	
 
