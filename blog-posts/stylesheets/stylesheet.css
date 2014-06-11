@@ -1,5 +1,6 @@
 body{
-	background-color: #B6BEBE;
+	background-image: url("http://i.imgur.com/t72Cvkp.png");
+	background-size: cover;
 	font-family: proxima-nova, sans-serif; 
 	font-weight: lighter;
 }
@@ -12,6 +13,15 @@ body{
 	text-align: center;
 	margin: 10px;
 }
+#page_content{
+	letter-spacing: 1px;
+	color: #990000;
+	font-size: 14px;
+	background-color: #E9ECEC;
+	width: 95%;
+	padding: 10px 15px 10px 15px;
+	margin:  15px;
+}
 #index_header{
 	letter-spacing: 5px;
 	font-size: 30px;
@@ -21,14 +31,21 @@ body{
 	text-align: center;
 	margin: 10px;
 }
+.pre_content{
+	letter-spacing: 1px;
+	font-size: 18px;
+	text-align: center;
+	}
+.date{
+	letter-spacing: 1px;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	}
 
-#page_content{
-	color: #990000;
-	font-size: 14px;
-	background-color: #E9ECEC;
-	width: 100%;
-	padding: 10px 15px 10px 15px;
-	margin: 15px;
+a {
+	color: black;
+	font-family: proxima-nova, sans-serif; 
 }
 
 a img{ 
@@ -45,3 +62,4 @@ ul li{
 	padding: 3px;
 	color: black;
 }
+
