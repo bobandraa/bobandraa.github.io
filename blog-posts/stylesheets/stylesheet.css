@@ -12,6 +12,15 @@ body{
 	text-align: center;
 	margin: 10px;
 }
+#index_header{
+	letter-spacing: 5px;
+	font-size: 30px;
+	background-color: #E9ECEC;
+	width: 100%;
+	padding: 10px 15px 10px 15px;
+	text-align: center;
+	margin: 10px;
+}
 
 #page_content{
 	color: #990000;
