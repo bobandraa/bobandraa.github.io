@@ -18,10 +18,9 @@ body{
 	color: #990000;
 	font-size: 14px;
 	background-color: #E9ECEC;
-	width: 80%;
+	width: 90%;
 	padding: 10px 15px 10px 30px;
 	margin:  15px;
-	text-align: center;
 }
 #index_header{
 	letter-spacing: 5px;
@@ -71,5 +70,6 @@ ul li{
 p{
 	background-color: white;
 	text-align: center;
-	width: 100%
+	width: 90%;
+    padding: 10px 15px 10px 15px;
 }
