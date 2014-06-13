@@ -24,7 +24,7 @@ img:hover {
  	color: yellow;
  }
 
-#header{
+header{
 	font-size: 26px;
 	padding: 10px 60px 10px 60px;
 	margin: 10px 100px 10px 100px;
@@ -33,6 +33,7 @@ img:hover {
 	width: 80%;
 	height: 100%;
 }
+
 #content{
 	background-color: white;
 	padding: 5px 10px 10px 10px;
