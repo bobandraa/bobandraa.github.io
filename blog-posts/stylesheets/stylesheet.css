@@ -32,6 +32,8 @@ body{
 	width: 100%;
 }
 
+/*Header*/
+
 header{
 	font-size: 30px;
 	background-color: #E9ECEC;
@@ -44,11 +46,14 @@ header{
 
 }
 header span{
-		float: left;
-		padding: 20px 25px 25px 50px;
-		font-size: 38px;
-		font-weight: lighter;
+	float: left;
+	padding: 20px 25px 25px 50px;
+	font-size: 38px;
+	font-weight: lighter;
 }
+
+/*Top Nav*/
+
 nav ul{
 	margin: 3%; /* shifts nav links down */
 	width: 50%;
@@ -66,8 +71,27 @@ nav ul li a {
 	text-decoration: none;
 	float: right;
 	line-height: 20px;
+	font-size: 18px;
 }
 nav ul li a:hover{
+	text-decoration: none;
+	color: #9F000F;
+	font-family: proxima-nova, sans-serif; 
+	letter-spacing: 0.2em;
+}
+
+/*Section*/
+
+section span{
+	clear: both;
+	float: left;
+	font-size: 18px;
+}
+section ul li {
+	text-align: center;
+	list-style-type: none;
+}
+section ul li a:hover{
 	text-decoration: none;
 	color: #9F000F;
 	font-family: proxima-nova, sans-serif; 
@@ -111,11 +135,14 @@ nav ul li a:hover{
 	font-size: 18px;
 	text-align: center;
 	color: white;
-	}
+}
+
+/*Links*/
 
 a {
 	color: black;
 	font-family: proxima-nova, sans-serif; 
+
 }
 a:hover{
 	color: #9F000F;
@@ -131,12 +158,12 @@ a img{
 a img:hover { 
   opacity: 0.7; 
 }
+
+
 ul li{
 	letter-spacing: 2px;
-	font-size: 18px;
 	padding: 3px;
 	color: black;
-
 }
 
 p{
