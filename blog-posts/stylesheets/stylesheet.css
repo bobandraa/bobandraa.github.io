@@ -1,27 +1,90 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+ /* Gives header height*/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+
+
 body{
 	background-image: url("http://i.imgur.com/t72Cvkp.png");
 	background-size: cover;
 	font-family: proxima-nova, sans-serif; 
 	font-weight: lighter;
+	width: 100%;
 }
-
 
 header{
 	font-size: 30px;
 	background-color: #E9ECEC;
-	width: 95%;
-	padding: 10px 15px 10px 15px;
+	width: 100%;
 	text-align: center;
-	margin: 10px;
+	position: fixed; 
+	top: 0px;
+	left: 0px;
+	z-index: 1000; /* gives priority to the element */
+
 }
+header span{
+		float: left;
+		padding: 20px 25px 25px 50px;
+		font-size: 38px;
+		font-weight: lighter;
+}
+nav ul{
+	margin: 3%; /* shifts nav links down */
+	width: 50%;
+	float: right;
+}
+nav li{
+	float:left;
+}
+nav ul li {
+	background-color: #E9ECEC;
+	list-style-type: none;
+	padding-right: 45px;
+
+	}
+nav ul li a {
+	text-decoration: none;
+	float: right;
+	line-height: 20px;
+}
+nav ul li a:hover{
+	text-decoration: none;
+	color: #9F000F;
+	font-family: proxima-nova, sans-serif; 
+	letter-spacing: 0.2em;
+}
+
+
+
 #page_content{
 	letter-spacing: 1px;
 	color: #990000;
 	font-size: 14px;
 	background-color: #E9ECEC;
-	width: 90%;
+	width: 50%;
 	padding: 10px 15px 10px 30px;
-	margin:  15px;
+	margin:  auto;
+	border-radius: 15px;
+
 }
 #index_header{
 	letter-spacing: 5px;
@@ -40,6 +103,7 @@ header{
 	letter-spacing: 1px;
 	font-size: 18px;
 	text-align: center;
+	padding-top: 100px;
 	}
 .date{
 	letter-spacing: 1px;
@@ -71,6 +135,7 @@ ul li{
 	font-size: 18px;
 	padding: 3px;
 	color: black;
+
 }
 
 p{
