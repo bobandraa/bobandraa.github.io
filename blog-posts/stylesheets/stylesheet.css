@@ -2,7 +2,8 @@
 	margin: 0px;
 	padding: 0px;
 }
- /* Gives header height*/
+ /* Gives header height even though elements are 
+    floating (prevents it from collapseing)*/
 
 .clearfix:after {
      visibility: hidden;
@@ -15,6 +16,7 @@
 
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
+
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
@@ -52,13 +54,12 @@ nav ul{
 	width: 50%;
 	float: right;
 }
-nav li{
-	float:left;
-}
+
 nav ul li {
 	background-color: #E9ECEC;
 	list-style-type: none;
 	padding-right: 45px;
+	float: left;
 
 	}
 nav ul li a {
@@ -82,7 +83,7 @@ nav ul li a:hover{
 	background-color: #E9ECEC;
 	width: 50%;
 	padding: 10px 15px 10px 30px;
-	margin:  auto;
+	margin: 15px auto;
 	border-radius: 15px;
 
 }
