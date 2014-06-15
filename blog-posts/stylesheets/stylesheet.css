@@ -91,6 +91,11 @@ section ul li {
 	text-align: center;
 	list-style-type: none;
 }
+section ul li a{
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
+}
 section ul li a:hover{
 	text-decoration: none;
 	color: #9F000F;
@@ -161,7 +166,7 @@ a img:hover {
 
 
 ul li{
-	letter-spacing: 2px;
+	letter-spacing: 0px;
 	padding: 3px;
 	color: black;
 }
