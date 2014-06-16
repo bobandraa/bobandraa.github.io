@@ -140,7 +140,9 @@ section ul li a:hover{
 	text-align: center;
 	padding-top: 120px;
 	}
-
+#page_content.coming_soon{
+	margin: 155px auto;
+}
 .date{
 	letter-spacing: 2px;
 	font-size: 18px;
@@ -152,7 +154,6 @@ section ul li a:hover{
 	padding: 10px 10px 10px 10px;
 	margin: 120px auto 15px;
 	border-radius: 15px;
-
 }
 
 .entries{
