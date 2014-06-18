@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-		<title>Bobandraa</title>
-		<link rel="stylesheet" type="text/css" href="../blog-posts/stylesheets/stylesheet.css">
-	    <link href="middleman/source/fonts/Proxima Nova Light.otf" >
-	</head>	
-
-	<body>
-	<div id="page_header">
-		 Header goes here
-	</div>
+<head>
+	<meta charset="utf-8">
+	<title>DATE</title>
+	<link rel="stylesheet" type="text/css" href="../bloag-post/stylesheets/stylesheet.css">
+	<link href="middleman/source/fonts/Proxima Nova Light.otf" >
+</head>
+<body>
+	<header> 
+		<span>b o b a n d r a</span>
+		 <nav class="clearfix">
+		 	<ul>
+		 		<li><a href="../index.html">home</a></li>
+		 		<li><a href="projects.html">projects<a/></li>
+		 		<li><a href="../unit1_projects/dbc1.html">about</a></li>
+		 		<li><a href="#">contact</a></li>
+		 	</ul>
+		 </nav>
+	</header>
 	<div class="date">
-		Date
+		DATE
 	</div>
-	<div>
-	  	Content with link
-	  	<a href="./blog-posts/week1_technical.html"><h3>Website Blog: Technical</h3></a>
-	</div>
-
+    
+	<div id="page_content">
 		
-	</body>	
-</html>
+	</div>
+</body>
+<footer>
+</footer>
+<html>
