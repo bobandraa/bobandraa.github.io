@@ -175,6 +175,9 @@ section ul li a:hover{
 	text-align: center;
 	padding:4%;
 }
+.blog_formatting{
+	padding: 10px 15px 10px 30px;
+}
 /*Button*/
 
 input {
