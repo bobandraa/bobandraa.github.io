@@ -90,12 +90,19 @@ section span{
 	float: left;
 	font-size: 18px;
 }
-
+section h2 {
+	text-align: center;
+	padding: 10px 15px 5px 15px;
+}
 section ul {
 	margin-top:18px;
 }
 section ul li {
 	text-align: center;
+	list-style-type: none;
+}
+section div ul li {
+	text-align: left;
 	list-style-type: none;
 }
 section ul li a{
@@ -208,14 +215,6 @@ ul li{
 	color: black;
 }
 
-p{
-	background-color: white;
-	text-align: center;
-	width: 90%;
-    padding: 10px 15px 10px 15px;
-    margin: 4%;
-    border-radius: 20px
-}
 
 /*Footer*/
 
