@@ -22,9 +22,9 @@
 		DATE
 	</div>
     
-	<div id="page_content">
+	<section id="page_content">
 		
-	</div>
+	</section>
 </body>
 	<footer>
 		<p>&copy; 2014 Sandra Cohen</p>

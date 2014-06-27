@@ -96,6 +96,7 @@ section h2 {
 }
 section ul {
 	margin-top:18px;
+	margin-bottom: 14px
 }
 section ul li {
 	text-align: center;
@@ -121,9 +122,9 @@ section ul li a:hover{
 
 #page_content{
 	letter-spacing: 0.063em;
-	color: #990000;
+	color: black;
 	opacity: 0.9;
-	font-size: 0.875em;
+	font-size: 0.938em;
 	background-color: #FAFAFA;
 	width: 50%;
 	padding: 30px 20px 30px 30px;
@@ -206,13 +207,13 @@ h2{
 }
 
 h4{
-   padding: 25px 0px 25px;
+   padding: 20px 0px 15px;
 }
 
 ul li{
 	letter-spacing: 2px;
 	padding: 3px;
-	color: black;
+	color: #990000;
 }
 
 
