@@ -228,3 +228,23 @@ footer p{
 	background-color: #E9ECEC;
 	margin-top: 2em;
 }
+
+/*Mobile*/
+@media screen and (max-width: 480px){
+	header nav ul li a{
+    clear:both;
+    text-align: center;
+    width: 100%;
+    float: none;
+  }
+  header span{
+  	float:none;
+  }
+  nav ul{
+  	width: 100%;
+  	margin: 3%;
+  	float: none;
+  }
+
+}
+
