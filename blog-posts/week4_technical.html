@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>06.27.14</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
+	<link href="middleman/source/fonts/Proxima Nova Light.otf" >
+</head>
+<body>
+	<header> 
+		<span>b o b a n d r a</span>
+		 <nav class="clearfix">
+		 	<ul>
+		 		<li><a href="../index.html">home</a></li>
+		 		<li><a href="projects.html">projects<a/></li>
+		 		<li><a href="../unit1_projects/dbc1.html">about</a></li>
+		 		<li><a href="#">contact</a></li>
+		 	</ul>
+		 </nav>
+	</header>
+	<div class="date">
+		06.27.14
+	</div>
+	<section id="page_content">
+    	<code><h2>Enumerable#map</h2></code>
+
+    		<div>
+    		<p>
+    			Ok, I'll start this post by saying that the <code>enumerable</code> method <code>#map</code> threw me for a loop.. no pun intended. So bare with me through this explaination!
+    		</p>
+    		<p>
+    			I'll start by first explaining what <code>Enumerable</code> is because, that too took me a while to truely wrap my mind around.(ok, I need to stop with the idioms..)
+    		</p>
+    				<code><h3>Enumerable</h3></code>
+    		<p>
+	    		At it's very core,<code>Enumerable</code> is a powerful Ruby Module that contains methods that preform specific tasks on a collection. If you are able to imagine a use for <code>#each</code> other than purely iterating, there is most likely a method that exists to carry out that functionality. Classes that include the <code>Enumerable</code> module require that they hold an <code>#each</code> method.(
+	    		<code>Array</code>,<code>Hash</code> ,etc). Right, so to summerize, <code>enumerable</code>s simply iterate through the objects they are called on.(correct me if im wrong!) So, this brings us to the  <code>#map</code> method.
+    		</p>
+    				<code><h3>#map</h3></code>
+    		<p>
+	    		The map method modifies each element according to the instructions that are defined in a block &amp; returns a <em>modified</em> collection of elements. If no block is defined, an enumerator is returned. 
+	    		Basic styntax:
+		    		<code>
+		    			<ul class="code_block">
+		    				<li>map{ |obj| block} --> array</li>
+		    				<li>map--> an_enumerator</li>
+		    			</ul>
+		    		</code>
+	    		<code>#map</code> will run you block and give you an object filled with whatever your block returned each time. Makes sense, right? Why would you do it any other way?
+    		</p>
+    			<h3>Life Before <code>#map</code></h3>
+    		<p>
+    			Lets say you wanted to get the exponent of every element in an array. You could:
+    				<p class="code_block">
+	    				<code>
+		         			def exponent_array(array)<br>
+		    					exp_array = []<br>
+		    					for n in array<br>
+		    						exp_array << n * n if n >= 1<br>
+		   					 	end<br>
+								return exp_array<br>
+							end<br>
+		    				> array = [1, 2, 3, 4, 5, 6, 7, 8, 9]<br>
+							> exponent_array(array)<br>
+							=>[1, 4, 9, 16, 25, 36, 49, 64, 81]
+						</code>
+					</p>
+					<p class="code_block">
+						<code>
+							mapped_exponents = array.map{|n| n * n}<br>
+							=>[1, 4, 9, 16, 25, 36, 49, 64, 81]
+						</code>
+					</p>
+				<h4>Well played, Ruby<h4>
+    		</p>
+	</section>
+</body>
+	<footer>
+		<p>&copy; 2014 Sandra Cohen</p>
+	</footer>
+<html>
