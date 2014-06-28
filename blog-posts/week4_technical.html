@@ -25,20 +25,20 @@
     	<code><h2>Enumerable#map</h2></code>
     		<div>
 	    		<p>
-	    			Ok, I'll start this post by saying that the <code>enumerable</code> method <code>#map</code> threw me for a loop.. no pun intended. So bare with me through this explaination!
+	    			Ok, I'll start this post by saying that the <code>enumerable</code> method <code>#map</code> threw me for a loop.. no pun intended. So bear with me through this explanation!
 	    		</p>
 	    		<p>
-	    			I'll start by first explaining what <code>Enumerable</code> is because, that too took me a while to truely wrap my mind around.(ok, I need to stop with the idioms..)
+	    			I'll start by first explaining what <code>Enumerable</code> is because, that too took me a while to truly wrap my mind around.(ok, I need to stop with the idioms..)
 	    		</p>
     				<code><h3>Enumerable</h3></code>
 	    		<p>
 		    		At it's very core,<code>Enumerable</code> is a powerful Ruby Module that contains methods that preform specific tasks on a collection. If you are able to imagine a use for <code>#each</code> other than purely iterating, there is most likely a method that exists to carry out that functionality. Classes that include the <code>Enumerable</code> module require that they hold an <code>#each</code> method.(
-		    		<code>Array</code>,<code>Hash</code> ,etc). Right, so to summerize, <code>enumerable</code>s simply iterate through the objects they are called on.(correct me if im wrong!) So, this brings us to the  <code>#map</code> method.
+		    		<code>Array</code>,<code>Hash</code> ,etc). Right, so to summarize, <code>enumerable</code>s simply iterate through the objects they are called on.(correct me if im wrong!) So, this brings us to the  <code>#map</code> method.
 	    		</p>
     				<code><h3>#map</h3></code>
 	    		<p>
 		    		The map method modifies each element according to the instructions that are defined in a block &amp; returns a <em>modified</em> collection of elements. If no block is defined, an enumerator is returned. 
-		    		Basic styntax:
+		    		Basic syntax:
 			    		<code>
 			    			<ul>
 			    				<li>map{ |obj| block} --> array</li>
@@ -78,7 +78,7 @@
 				</p>
 					<h4>...Well played, Ruby</h4>
 				<p>
-					Turns out there is another method where we can do something and collect the results, accurately named <code>#collect</code>, which works the <b>exact</b> same way. Depending on how you visualize performing the action; either by exceuting a block of code and <b>collect</b>ing the results or by re-<b>map</b>ping your original object through some sort of tranformation, you're covered! As long as the class you use has its own <code>#each</code> method, you get access to the magic and many wonders of <code>Enumerable</code> .
+					Turns out there is another method where we can do something and collect the results, accurately named <code>#collect</code>, which works the <b>exact</b> same way. Depending on how you visualize performing the action; either by executing a block of code and <b>collect</b>ing the results or by re-<b>map</b>ping your original object through some sort of transformation, you're covered! As long as the class you use has its own <code>#each</code> method, you get access to the magic and many wonders of <code>Enumerable</code> .
 				</p>
 		</div>
 	</section>
