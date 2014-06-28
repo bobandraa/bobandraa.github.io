@@ -95,7 +95,7 @@ section h2 {
 	padding: 10px 15px 5px 15px;
 }
 section ul {
-	margin-top:18px;
+	margin-top:19px;
 	margin-bottom: 14px
 }
 section ul li {
@@ -234,6 +234,7 @@ code h3{
 	text-align: center;
 	padding: 3px 15px 3px 15px;
 }
+
 ul li{
 	letter-spacing: 2px;
 	padding: 3px;
