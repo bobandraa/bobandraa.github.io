@@ -5,6 +5,7 @@
 	<title>DATE</title>
 	<link rel="stylesheet" type="text/css" href="../bloag-post/stylesheets/stylesheet.css">
 	<link href="middleman/source/fonts/Proxima Nova Light.otf" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<header> 
