@@ -182,8 +182,10 @@ line-height: 1.4em;
 }
 
 .code_block{
-	padding: 1em;
-	margin-left: 25%;
+	padding: 0.625em;
+    width: 70%;
+    margin: 0.625em auto;
+    border: 1px solid #990000;
 
 }
 
@@ -192,7 +194,7 @@ line-height: 1.4em;
 	padding:4%;
 }
 .blog_formatting{
-	padding: 10px 15px 10px 30px;
+	padding: 10px 15px 10px 10px;
 }
 
 /*Links*/
