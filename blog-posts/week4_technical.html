@@ -40,16 +40,18 @@
 	    		<p>
 		    		The map method modifies each element according to the instructions that are defined in a block &amp; returns a <em>modified</em> collection of elements. If no block is defined, an enumerator is returned. 
 		    		Basic syntax:
+			    		
 			    		<code>
 			    			<ul>
 			    				<li>map{ |obj| block} --> array</li>
 			    				<li>map--> an_enumerator</li>
 			    			</ul>
 			    		</code>
+			    	
 		    		<code>#map</code> will run your block and give you an object filled with whatever your block returned each time. Makes sense, right? Why would you do it any other way?
 	    		</p>
     				<h3>Life Before <code>#map</code></h3>
-	    		<p>
+	    		<div>
 	    			Lets say you wanted to get the exponent of every element in an array. You could:
 	    				<p class="code_block">
 		    				<code>
@@ -64,7 +66,8 @@
 								> exponent_array(array)<br>
 								=>[1, 4, 9, 16, 25, 36, 49, 64, 81]
 							</code>
-				</p>
+						</p>
+				 </div>
 				<p>
 					The above method takes an array and loops through each number and while the number is greater than 1, it then populates the empty array and returns the result. Fantastic.
 				</p>
