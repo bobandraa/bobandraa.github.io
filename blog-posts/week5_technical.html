@@ -74,7 +74,7 @@
 	    			These instance variables help set up your Movie’s <b>state</b> and when that specific movie or instance is deleted, so are the associated instance variables.
 	    		</p>
 	    		<p class="blog_formatting">
-	    			Cool, so now you have a way to build a catalog of all your movies. Now that you have an efficient way to store your data, we are also given a way to make our Movie objects operate specified actions. Since these methods get called on an individual instance of the Movie class, they are referred to as <b>instance methods</b>. They work exactly like <code>#each</code>, <code>#map</code>, and <code>#sort </code> would for an instance on the <code>Array</code> class. These methods look like any other method; beginning with a <code>def</code> and ending with <code>end </code>.
+	    			Cool, so now you have a way to build a catalog of all your movies. Now that you have an efficient way to store your data, we are also given a way to make our Movie objects operate specific actions. Since these methods get called on an individual instance of the Movie class, they are referred to as <b>instance methods</b>. They work exactly like <code>#each</code>, <code>#map</code>, and <code>#sort </code> would for an instance on the <code>Array</code> class. These methods look like any other method; beginning with a <code>def</code> and ending with <code>end </code>.
 	    		</p>
 	    		<p class="code_block">
 		    		<code>
@@ -85,12 +85,26 @@
 						 &nbsp &nbsp &nbsp @title = title<br>
                          &nbsp &nbsp end<br>
                          <br>
-                         &nbsp &nbsp def get_genre(genre)<br>
-                         &nbsp &nbsp &nbsp  puts @genre<br>
+                         &nbsp &nbsp def title_from_genre(genre)<br>
+                         &nbsp &nbsp &nbsp  puts @title<br>
                          &nbsp &nbsp end<br>
                         end<br>
 					</code>
 				</p>
+				<p class="blog_formatting">
+	    			Cool, so now you have a way to build a catalog of all your movies. Now that you have an efficient way to store your data, we are also given a way to make our Movie objects operate specific actions. Since these methods get called on an individual instance of the Movie class, they are referred to as <b>instance methods</b>. They work exactly like <code>#each</code>, <code>#map</code>, and <code>#sort </code> would for an instance on the <code>Array</code> class. These methods look like any other method; beginning with a <code>def</code> and ending with <code>end </code>. If you wanted to find the title of a scary movie from your collection, you can do the following:
+	    		</p>
+	    	    <p class="code_block">
+		    		<code>
+		    			movie = Movie.new("scary","Danny Boyle","28 days later")<br>
+						movie.title_from_genre(2)<br>
+					</code>
+				</p>
+	    		<p class="blog_formatting">
+	    		Pants?
+	    		<!-- 
+	    			AAlthough this is just a basic call to print the title of the genre associated with it, instance methods function and are just like any other method outside of a class. But when you have multiple instances of your data, it only makes sense you utilize the <code>Class</code> structure. -->
+	    		</p>
 		</div>
 	</section>
 </body>
