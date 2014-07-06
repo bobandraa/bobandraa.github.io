@@ -173,19 +173,19 @@ section ul li a:hover{
 }
 
 code {
-font-size: 0.938em;
-color: #666666;
-font-family: Courier, Monospace;
-background-color: #f8f8f8;
-padding: 1px;
-line-height: 1.4em;
+	font-size: 0.938em;
+	color: #666666;
+	font-family: Courier, Monospace;
+	background-color: #f8f8f8;
+	padding: 1px;
+	line-height: 1.4em;
 }
 
 .code_block{
 	padding: 0.625em;
     width: 70%;
     margin: 0.625em auto;
-    border: 1px solid #990000;
+    border: 0.113em solid #990000;
 
 }
 
@@ -247,13 +247,15 @@ ul li{
 /*Footer*/
 
 footer p{
+	/*position: fixed;*/
+	bottom:0;
 	text-align: center;
 	width: 100%;
 	font-size: 0.875em;
 	margin: 0%;
 	border-radius: 0%;
 	background-color: #E9ECEC;
-	margin-top: 2em;
+	margin-top: 3em;
 }
 
 /*Mobile*/
