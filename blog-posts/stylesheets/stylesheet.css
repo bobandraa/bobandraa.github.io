@@ -59,7 +59,6 @@ header span{
 
 nav ul{
 	margin: 3%; /* shifts nav links down */
-	width: 50%;
 	float: right;
 }
 
@@ -263,7 +262,7 @@ footer p{
 
 	header span{
 	float: left;
-	padding: 20px 15px 5px 40px;
+	padding: 20px 10px 5px 40px;
 	font-size: 26px;
     color: #9F000F;
 	font-weight: lighter;
@@ -279,21 +278,31 @@ footer p{
 
 
 /*Mobile*/
-@media screen and (max-width: 480px){
-	header nav ul li a{
-    clear:both;
+@media screen and (max-width: 536px){
+
+ header nav ul li a{
     text-align: center;
-    width: 100%;
     float: none;
+    clear: both;
   }
+
   header span{
-  	float:none;
-  }
-  nav ul{
-  	width: 100%;
-  	margin: 3%;
   	float: none;
   }
+
+  nav ul li {
+	background-color: #E9ECEC;
+	list-style-type: none;
+	padding-right: 25px;
+	}
+
+nav ul li a {
+	text-decoration: none;
+	float: right;
+	line-height: 5px;
+	font-size: 15px;
+}
+
 
 }
 
