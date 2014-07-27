@@ -258,6 +258,26 @@ footer p{
 	margin-top: 3em;
 }
 
+/*Tablet*/
+@media screen and (max-width: 911px){
+
+	header span{
+	float: left;
+	padding: 20px 15px 5px 40px;
+	font-size: 26px;
+    color: #9F000F;
+	font-weight: lighter;
+	}
+
+	nav ul{
+	margin: 1%; /* make top nav banner thinner*/
+	width: 85%;
+	float: right;
+	}
+
+}
+
+
 /*Mobile*/
 @media screen and (max-width: 480px){
 	header nav ul li a{
