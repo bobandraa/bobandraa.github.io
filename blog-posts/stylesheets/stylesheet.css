@@ -289,6 +289,11 @@ footer p{
   header span{
   	float: none;
   }
+  	nav ul{
+	margin: 1%; /* make top nav banner thinner*/
+	width: 90%;
+	float: right;
+	}
 
   nav ul li {
 	background-color: #E9ECEC;
