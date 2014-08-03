@@ -147,17 +147,22 @@ code {
 	font-size: 0.938em;
 	color: #666666;
 	font-family: Courier, Monospace;
-	background-color: #f8f8f8;
 	padding: 1px;
 	line-height: 1.4em;
+	background-color: inherit;
 }
 
-.code_block{
+.code_block {
 	padding: 0.625em;
     width: 70%;
     margin: 0.625em auto;
-    border: 0.113em solid #990000;
+    border: 0.120em solid #990000;
+    background-color: black;
+    opacity: 0.8;
+}
 
+.white_code{
+	color: white;
 }
 
 .center_content{
@@ -165,7 +170,7 @@ code {
 	padding: 1.5%;
 }
 .blog_formatting{
-	padding: 10px 15px 10px 10px;
+	padding: 5px 10px 5px 10px;
 }
 
 /*Links*/
@@ -208,9 +213,10 @@ code h3{
 }
 
 ul li{
-	letter-spacing: 2px;
-	padding: 3px;
+	letter-spacing: 0.125em;
+	padding: 0.125em;
 	color: #990000;
+	list-style-type: none;
 }
 
 
