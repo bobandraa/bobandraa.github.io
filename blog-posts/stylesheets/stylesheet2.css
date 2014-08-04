@@ -2,7 +2,6 @@
 body{
 	
 	background-size: cover;
-
 	font-family: proxima-nova, sans-serif; 
 	font-weight: lighter;
 	width: 100%;
@@ -28,6 +27,7 @@ nav {
 	height: 100px;
 	background: #eee;
 }
+
 
 nav span{
 	float: left;
@@ -73,7 +73,7 @@ header {
 
 section span{
 	clear: both;
-	float: left;
+	
 	font-size: px;
 }
 section h2 {
@@ -134,7 +134,10 @@ section ul li a:hover{
 
 #section_three {
 	background-color: #C63D0F;
-
+	padding: 20px;
+}
+#section_four {
+	background-color: #E9ECEC;
 }
 
 #title_row {
@@ -143,6 +146,37 @@ section ul li a:hover{
 .indent_list{
 	margin: 0em 2.813em;
 }
+
+/* Bootstrap Override*/
+
+.jumbotron {
+	background-color: #7E8F7C;
+	height: 400px;
+}
+
+.carousel-control {
+	top: inherit; 
+	bottom: inherit; 
+	left: 0;
+	height: 400px;
+	width: 15%;
+	font-size: 60px;
+	color: black;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+	opacity: .4;
+}
+.carousel-control.left {
+vertical-align: middle;
+}
+.navbar{
+	margin-bottom: 0;
+}
+.navbar-fixed-top{
+	position: inherit;
+}
+
+
 .pre_content{
 	letter-spacing: 1px;
 	font-size: 18px;
@@ -150,27 +184,14 @@ section ul li a:hover{
 	padding-top: 20px;
 	}
 
-.date{
-	letter-spacing: 2px;
-	font-size: 18px;
-	text-align: center;
-	color: black;
-	color: #7E8F7C;
-	background-color: #E9ECEC;
-	width: 10%;
-	padding: 10px 10px 10px 10px;
-	margin: 120px auto 15px;
-	border-radius: 15px;
-}
+
 
 .entries{
 	letter-spacing: 1px;
 	color: #990000;
 	font-size: 14px;
 	background-color: #E9ECEC;
-	width: 50%;
-	padding: 10px 15px 10px 30px;
-	margin: 15px auto;
+	margin: 15px;
 	border-radius: 15px;
 
 }
@@ -194,8 +215,13 @@ code {
 
 .center_content{
 	text-align: center;
-	padding:4%;
+	padding: 15%;
 }
+.center_blogs {
+	text-align: center;
+
+}
+
 .blog_formatting{
 	padding: 10px 15px 10px 10px;
 }
@@ -208,9 +234,17 @@ a {
 
 }
 a:hover{
-	color: #7E8F7C;
+	text-decoration: none;
+	color: #9F000F;
 	font-family: proxima-nova, sans-serif; 
-	letter-spacing: 2px;
+	letter-spacing: 0.2em;
+}
+
+a span::hover{
+	text-decoration: none;
+	color: #C63D0F;
+	font-family: proxima-nova, sans-serif; 
+	letter-spacing: 0.2em;
 }
 
 a img{ 
@@ -245,7 +279,18 @@ ul li{
 	padding: 3px;
 	color: #990000;
 }
+/*Contact Icons*/
 
+@font-face {
+  font-family: 'IcoMoon';
+  src: url('../../font/icomoon.woff') format('woff');
+}
+
+[data-icon]:before {
+  font-family: 'IcoMoon';
+  content: attr(data-icon);
+  font-size: 36px;
+}
 
 /*Footer*/
 
@@ -259,6 +304,7 @@ footer p{
 	border-radius: 0%;
 	background-color: #E9ECEC;
 }
+
 
 /*Tablet*/
 @media screen and (max-width: 911px){
