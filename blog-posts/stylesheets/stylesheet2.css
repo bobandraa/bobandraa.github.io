@@ -1,8 +1,8 @@
 
 body{
-	
+
 	background-size: cover;
-	font-family: proxima-nova, sans-serif; 
+	font-family: proxima-nova, sans-serif;
 	font-weight: lighter;
 	width: 100%;
 	margin: 0;
@@ -60,7 +60,7 @@ nav ul li a {
 nav ul li a:hover{
 	text-decoration: none;
 	color: #9F000F;
-	font-family: proxima-nova, sans-serif; 
+	font-family: proxima-nova, sans-serif;
 	letter-spacing: 0.2em;
 }
 
@@ -73,7 +73,7 @@ header {
 
 section span{
 	clear: both;
-	
+
 	font-size: px;
 }
 section h2 {
@@ -81,7 +81,7 @@ section h2 {
 	padding: 10px 15px 5px 15px;
 }
 section ul {
-	
+
 	margin-bottom: 14px
 }
 section ul li {
@@ -100,7 +100,7 @@ section ul li a{
 section ul li a:hover{
 	text-decoration: none;
 	color: #9F000F;
-	font-family: proxima-nova, sans-serif; 
+	font-family: proxima-nova, sans-serif;
 	letter-spacing: 0.2em;
 }
 
@@ -155,8 +155,8 @@ section ul li a:hover{
 }
 
 .carousel-control {
-	top: inherit; 
-	bottom: inherit; 
+	top: inherit;
+	bottom: inherit;
 	left: 0;
 	height: 400px;
 	width: 15%;
@@ -191,9 +191,8 @@ vertical-align: middle;
 	color: #990000;
 	font-size: 14px;
 	background-color: #E9ECEC;
-	margin: 15px;
+	margin: 10px;
 	border-radius: 15px;
-
 }
 
 code {
@@ -230,30 +229,30 @@ code {
 
 a {
 	color: black;
-	font-family: proxima-nova, sans-serif; 
+	font-family: proxima-nova, sans-serif;
 
 }
 a:hover{
 	text-decoration: none;
 	color: #9F000F;
-	font-family: proxima-nova, sans-serif; 
+	font-family: proxima-nova, sans-serif;
 	letter-spacing: 0.2em;
 }
 
 a span::hover{
 	text-decoration: none;
 	color: #C63D0F;
-	font-family: proxima-nova, sans-serif; 
+	font-family: proxima-nova, sans-serif;
 	letter-spacing: 0.2em;
 }
 
-a img{ 
-  opacity: 1; 
+a img{
+  opacity: 1;
 
-} 
+}
 
-a img:hover { 
-  opacity: 0.7; 
+a img:hover {
+  opacity: 0.7;
 }
 
 h2{
