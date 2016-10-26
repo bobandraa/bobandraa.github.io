@@ -1,0 +1,110 @@
+body {
+  background-color: #FFFFFF;
+  /*background-color: #EEEEEE;*/
+  font-family: 'Lato';
+}
+
+@font-face {
+font-family: 'Lato', sans-serif;
+  src: url('Lato-Light.ttf');
+  font-weight : 300;
+  font-style  : normal;
+}
+
+.fw-b{
+  font-weight: bold;
+}
+
+.bd {
+  border: 1px solid #000;
+}
+
+.bdrs {
+  border-radius: 5%;
+}
+
+.p {
+  padding: 25px;
+}
+
+.pt{
+  padding-top: 25px;
+}
+
+.h-md {
+  height: 150px;
+}
+
+.h-sm {
+  height: 70px;
+}
+
+.w {
+  width: 45%;
+}
+
+.bgc {
+  background-color: #EEEEEE;
+}
+
+.fl-n {
+  float: none;
+}
+
+.fl-l {
+  float: left;
+}
+
+.m-a {
+  margin: auto;
+}
+
+.mt {
+  margin-top: 7%;
+}
+
+.ml-sm {
+  margin-left: 4%;
+}
+
+.mt-sm {
+  margin-top: 3%;
+}
+
+.mr-sm {
+  margin-right: 12px;
+}
+
+.mt-md {
+  margin-top: 8%;
+}
+
+.mb-sm {
+  margin-bottom: 3px;
+}
+
+.mb-md {
+  margin-bottom: 15px;
+}
+
+.o {
+  opacity: 0.8;
+}
+
+.bxsh {
+   box-shadow: 1px 1px 5px #888888;
+}
+
+.about-us{
+  font-size: 24px;
+  text-align: center;
+}
+.wrapper {
+  background-color: #222222;
+  margin: 0 auto;
+  padding: 80px 25%;
+}
+
+.contact {
+  color: #777777; 
+}
