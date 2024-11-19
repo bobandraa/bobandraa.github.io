@@ -10,15 +10,18 @@
 	font-family: 'Proxima Nova', sans-serif;
 	font-weight: lighter;
 	width: 100%;
-	background-color: #FAFAFA;
+	background-color: #40E0D0;
+
+	padding-top: 120px; /* Add padding equal to the navbar height to prevent layout shift */
+
   }
-  
+ 
   /* Header */
   #top_banner {
 	background-image: url("http://i.imgur.com/83j0L9l.jpg");
 	background-size: cover;
 	background-position: center center;
-	height: 100vh;
+	height: 84vh;
   }
   
   nav {
@@ -27,6 +30,8 @@
 	width: 100%;
 	background: #eee;
 	padding: 10px;
+	height: 120px; /* Set a fixed height for the navbar */
+	transition: all 0.3s ease; /* Add smooth transition for any change */
   }
   
   nav span {
@@ -123,6 +128,7 @@
 	padding: 10px;
 	background-color: #E9ECEC;
 	font-size: 0.875em;
+	margin: 0;
   }
   
   
