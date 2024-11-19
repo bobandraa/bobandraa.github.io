@@ -119,10 +119,6 @@ nav a:visited {
     color: white;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
 /* ==============
     MOBILE: Main
    ============== */

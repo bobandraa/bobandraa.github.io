@@ -1,0 +1,122 @@
+/* Reset and body styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	background-size: cover;
+	font-family: 'Proxima Nova', sans-serif;
+	font-weight: lighter;
+	width: 100%;
+	background-color: #FAFAFA;
+  }
+  
+  /* Header */
+  #top_banner {
+	background-image: url("http://i.imgur.com/83j0L9l.jpg");
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+  }
+  
+  nav {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: #eee;
+	padding: 10px;
+  }
+  
+  nav span {
+	font-size: 2.25em;
+	font-weight: lighter;
+	padding-left: 30px;
+  }
+  
+  nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px;
+  }
+  
+  nav ul li {
+	margin-right: 20px;
+  }
+  
+  nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+	color: #9F000F;
+  }
+  
+  /* Sections */
+  section {
+	padding: 20px 0;
+  }
+  
+  #section_three {
+	background-color: #C63D0F;
+	color: white;
+  }
+  
+  
+  .entries {
+	background-color: #E9ECEC;
+	margin: 10px;
+	padding: 15px;
+	border-radius: 15px;
+  }
+  
+  .entries span {
+	display: block;
+	color: black;
+	margin-bottom: 10px;
+  }
+  
+  .entries ul {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  .entries ul li {
+	margin-bottom: 5px;
+  }
+  
+  .entries ul li a {
+	text-decoration: none;
+	color: #990000;
+  }
+  
+  .entries ul li a:hover {
+	color: #9F000F;
+	font-weight: 400;
+  }
+  
+  /* Footer */
+  footer p {
+	text-align: center;
+	padding: 10px;
+	background-color: #E9ECEC;
+	font-size: 0.875em;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+	nav ul {
+	  flex-direction: column;
+	  text-align: center;
+	}
+  
+	.entries {
+	  margin-bottom: 15px;
+	}
+  }
+  
