@@ -1,70 +1,80 @@
-
 /* Reset and body styling */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-	font-family: 'Proxima Nova', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #portfolio {
-    background-color: #C63D0F;
-    padding-top: 120px;
-    color: white;
-  }
+  font-family: "Proxima Nova", sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-  .porfolio-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+#portfolio {
+  background-color: #c63d0f;
+  padding-top: 120px;
+  color: white;
+}
 
-  h3 {
-    display: block;
-    text-align: center;
-  }
+.porfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  .portfolio-tile {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 920px;
-    overflow: hidden;
-    text-align: center;
-    margin-bottom: 40px;
-    transition: transform 0.3s ease;
-  }
+h3 {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 200;
+}
 
-  .portfolio-tile img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    object-fit: cover;
-  }
+.portfolio-item a {
+  text-decoration: none;
+  color: inherit;
+}
 
+.portfolio-tile {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 920px;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 40px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-tile img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.portfolio-tile img:hover {
+  opacity: 0.7;
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+a img {
+  opacity: 1;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
   .caption {
-    margin-top: 10px;
-    font-size: 18px;
-    color: #333;
+    font-size: 16px;
   }
-
-  .portfolio-item a {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  /* Responsive layout */
-  @media (max-width: 768px) {
-    .caption {
-      font-size: 16px;
-    }
-  }
+}
