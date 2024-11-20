@@ -9,6 +9,10 @@
   --red: #9f000f;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   background-size: cover;
   font-family: "Proxima Nova", sans-serif;
@@ -31,10 +35,14 @@ nav {
 }
 
 .nav-header {
-  font-size: 4rem;
+  font-size: 2.4rem;
   font-weight: lighter;
   padding-left: 30px;
   color: var(--red);
+  text-decoration: none;
+}
+
+.nav-header:hover {
   text-decoration: none;
 }
 
@@ -52,7 +60,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: black;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 nav ul li a:hover {
@@ -84,7 +92,7 @@ h3 {
   color: black;
   font-size: 40px;
   font-weight: 200;
-  padding: 40px;
+  padding: 40px 0;
 }
 
 .portfolio-tile {
