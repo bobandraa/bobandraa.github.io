@@ -1,5 +1,3 @@
-bobandraa.github.io
-===================
+# bobandraa.github.io
 
-My DBC Phase_0 pages!!
-testing
+repupose for temp portfolio
