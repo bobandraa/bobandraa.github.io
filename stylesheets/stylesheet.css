@@ -26,6 +26,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  min-width: 320px;
   height: 115px;
   background: #eee;
   padding: 20px 20px 10px;
@@ -40,6 +41,7 @@ nav {
   padding-left: 30px;
   color: var(--red);
   text-decoration: none;
+  text-wrap: nowrap;
 }
 
 .nav-header:hover {
@@ -94,7 +96,7 @@ nav ul li a:hover {
 }
 
 .portfolio-tile {
-  width: 100%;
+  width: 90%;
   max-width: 920px;
   margin: 0 auto 40px;
   background-color: #fff;
@@ -144,5 +146,11 @@ a h3:hover {
 @media (max-width: 768px) {
   .portfolio-caption {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .nav-header {
+    padding-left: 10px;
   }
 }
