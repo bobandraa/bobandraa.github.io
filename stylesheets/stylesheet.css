@@ -17,6 +17,7 @@ body {
   font-family: "Proxima Nova", sans-serif;
   font-weight: lighter;
   width: 100%;
+  min-width: 320px;
   background-color: #d3d3d3;
   background-size: cover;
   padding-top: 80px;
